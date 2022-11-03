@@ -5,19 +5,21 @@
 }
 .sidenav {
     position: fixed;
-    width: 400px;
+    width: 300px;
     height: 600px;
     z-index: 1;
     top: 200px;
     left: 30px;
     overflow-x: hidden;
     background-color: white;
+    opacity: 0.9;
+    margin-left: 0;
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 30px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     display: block;
     color: black;
 }
@@ -29,41 +31,43 @@
     
 }
 
-.sidenav h4{
-    margin-left: 16px;
-    margin-bottom: 25px;
+.sidenav h5{
+    margin: 20px 0px 20px 30px;
 }
 
 footer{
     margin-top: 20px;
-    margin-left: 16px;
+    margin-left: 30px;
     color: lightgrey;
 }
 
-#img1{
-    width: 500px;
-    height: 600px;
-    margin-top: 20px;
+.first_img{
+    width: 400px;
+    height: 550px;
+    border: 0;
     background-color: white;
-
+    margin-left: 400px;
 }
 
 .img-group{
     width: 100%;
     height: 730px;
+    display: flex;
+    position: relative;
+    margin-left: 0;
+    transition: margin-left 500ms ease;
+
 }
 
 .img {
-    width: 600px;
-    height: 600px;
+    width: auto;
+    height: 550px;
     margin-top: 20px;
+    margin-right: 2px;
     background-color: rgb(241, 252, 129);
-    white-space: nowrap;
-    display: inline-block;
 }
 
 .img-scroll{
-    float: right;
     width: 100%;
     margin-top: 20px;
     text-align: center;
@@ -72,4 +76,9 @@ footer{
     overflow-y: hidden;
     z-index: -1;
 }
+
+p{
+    text-align: left;
+}
+
 
